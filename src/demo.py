@@ -33,9 +33,10 @@ def demo(opt):
         "mot",
         result_filename,
         save_dir=frame_dir,
-        show_image=False,
+        show_image=True,
         frame_rate=frame_rate,
         use_cuda=opt.gpus != [-1],
+        count_flops=True,
     )
 
     if opt.output_format == "video":
