@@ -33,7 +33,7 @@ def demo(opt):
         "mot",
         result_filename,
         save_dir=frame_dir,
-        show_image=True,
+        show_image=False,
         frame_rate=frame_rate,
         use_cuda=opt.gpus != [-1],
         count_flops=True,
