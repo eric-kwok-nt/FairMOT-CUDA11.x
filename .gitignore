@@ -113,5 +113,5 @@ ENV/
 # Custom folders
 output/
 outputs/
-models/
+./models/
 .idea
